@@ -1,0 +1,592 @@
+body{
+background-color: #d18512;
+height: 100%;
+background-repeat: no-repeat;
+background-size: auto;
+animation:animate 1s linear; 
+animation:bg 15s ease-in-out;
+}
+
+.text-align{
+font-size: 25px;
+
+}
+
+section{
+width: 100%;
+    height: 100vh;
+    /*background: linear-gradient(-45deg, black, gray, rgb(40, 77, 40), #23D5AB );*/
+    background-size: 150% 150%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    
+}
+@keyframes change{
+    
+   0%{
+    background-position: 0 50%;    
+       
+    
+    }
+   50%{
+    background-position: 100% 50%;    
+    
+    }
+    
+   100%{
+    background-position: 0 50%;    
+    
+    }
+}
+
+#text iframe-container{
+    margin-top: 1%;
+      position: absolute;
+    width: 80%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  #text iframe-container iframe{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .video-contanier{
+    width: 100%;
+    height: 100%;
+    left:0 ;
+    position: fixed;
+    top:0 ;
+    z-index: -1;
+    background-repeat: round;
+    }
+
+    video{
+        width: 1920px;
+        height: 1080px;
+
+    }
+#title{
+
+text-align: center;
+background-color: black;
+color: white;
+    
+}
+
+
+
+
+
+#banner-grad{
+height: 19%;
+/*background-image: linear-gradient(#d6d6d6, black);*/
+background-color: transparent;
+
+}
+    body{
+    margin: 0;
+    padding: 0;
+    animation:animate 1s linear;
+    }
+    
+    #div1{
+    float: left;
+    background-color:black;   
+    width: 20%;    
+    height: %;
+    margin-top:16%;
+    margin-bottom: 20%;
+    margin-left: 2%;
+    overflow-y: ;
+    opacity: 0.9;
+    overflow: hidden;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    animation:animate 1s linear;    
+    }
+    
+#div2{
+    position: absolute;    
+    background-color: transparent;
+    color: black;
+    width: 50.3%;
+    margin-left: 24.3%;
+    text-align: ;
+    border-radius: 25px;
+    height: 100%;
+    overflow-y: scroll;
+    animation:animate 1s linear;
+    animation:bg 12s ease-in-out infinite;
+    opacity: 1;
+    
+}
+
+/*Costum scroll*/
+.scroll{
+background: black;
+display: none;
+}
+::-webkit-scrollbar {
+  background:transparent ;
+display: none;
+
+}
+::-webkit-scrollbar-thumb{
+overflow: hidden;
+background:transparent ;
+display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+overflow: hidden;
+  background: transparent;
+display: none;
+}
+
+
+
+
+::-webkit-scrollbar {
+overflow: hidden;
+  width: 10px;
+    
+}
+/*Costum scroll vége*/
+    #div3{
+   margin-right:2% ;
+    width:25% ;
+    float: right;
+    margin-right: ;
+    height: 100%;
+    background-color:;
+    background-color: ;
+    text-align: center;
+    margin-left: 5%;
+        animation:animate 1s linear;
+        
+              }
+
+
+.rigth-text{
+font-weight: 1000;
+font-size: 18px;
+text-decoration: underline;
+color: lightblue;
+
+}
+#inside-rigth{
+margin-top:36% ;
+    height: 80%;
+background-color:black;
+opacity:0.95 ;
+color: white;
+border-radius: 20px;
+margin-left: 16%;
+overflow-y: scroll;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.unnamed{
+
+
+margin-left: 45%;
+}
+
+div#contanier {
+    width: 700px;
+    margin: 100px auto;
+    
+}
+
+ul#menu {
+margin-left: 12%;
+list-style: none;
+height: 100px;
+color: black;
+
+}
+
+ul#menu li {
+float: left; 
+background-color:#404040;
+width:20%;
+margin: 0 2px 0 0;
+border-radius: 20px;
+
+}
+@keyframes anime{
+
+    0%{
+    background-color: black;
+        
+    }
+    
+   
+    
+    
+    100%{
+    background-color: #404040; 
+    }
+}
+
+
+ul#menu li a{
+color: white;
+text-decoration: none;
+}    
+    
+
+ul#menu li {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 5px;
+   
+}
+@keyframes animate{ 
+    0%{
+
+    opacity: 0;
+    transform: translate(100px,222px);
+    }
+    20%{
+    opacity: 0.2;
+    
+    }
+    40%{
+   opacity: 0.5;
+    
+    
+    
+   
+    
+    }
+    80%{
+    opacity: 0.7;
+    
+        
+    }
+    100%{
+   opacity: 1;
+   
+    }
+}
+
+ul#menu li a:hover {
+color: #b61616;
+transition: 0.6s all ease;
+
+}
+ul#menu li:hover {
+color: #b61616;
+transition: 0.6s all ease;
+    animation: anime 15s linear;}
+ul#menu li div{
+display: none;
+text-align: center;
+display: inline;
+   
+
+}
+
+ul#menu li:hover{
+color: #b61616;
+
+}/*Gombok*/
+
+
+ul#menu li div a{
+
+
+}
+
+    
+}
+
+
+ul#menu li div a:hover{
+text-decoration: underline;    
+}
+
+
+
+ul#menu li:hover div{
+display: block;
+background-color: transparent;
+
+}
+
+.title, title2{ 
+/*margin-left: 20%;
+margin-right: 20%;*/
+text-align: center;
+font-size: 20px;
+font-weight: 1000;
+font-family: 'Montserrat', sans-serif;
+color: #b61616;
+
+    
+}
+
+.title1{ 
+    /*margin-left: 20%;
+    margin-right: 20%;*/
+    text-align: center;
+    font-size: 45px;
+    font-weight: 1000;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    
+        
+    }
+
+
+
+
+.history{
+margin-left: 18%;
+margin-right: 18%;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+
+}
+
+.container{
+
+    
+}
+
+.oldaltexts{
+position: relative;
+margin-top: %;
+color: lightblue;
+font-size: 120%;
+
+}
+
+#listavonal{
+ color: black;
+width: 50%;
+
+    
+}
+
+.lista{
+
+margin-right: 2%;
+list-style: none;
+
+}
+
+.lista a{
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 90%;
+text-decoration: none;
+
+}
+
+.lista a:hover{
+text-decoration: underline;
+
+   
+
+}
+
+.reasons{
+font-family: 'Montserrat', sans-serif;
+font-weight: 1000;
+margin-left: 18%;
+margin-right: 18%;
+color: rgb(0, 0, 0);
+}
+.reasons2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.5px;
+    font-weight: 1000;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: black;
+    }
+
+
+
+.inp{
+font-family: 'Montserrat', sans-serif;
+color: firebrick;
+text-decoration: underline;
+
+
+}
+
+.key{
+margin-top:35px;
+height: %;
+width: 100%;
+margin-left: -20px;
+transition: transform 0.4s;
+
+}
+.key:hover{
+
+transform: scale(1.04);
+
+}
+
+#oldalindex{
+
+}
+.Bkep{
+
+opacity: 0.7;
+width:100%;
+transition: transform 0.4s;
+
+}
+
+.Bkep:hover{
+opacity: 0.7;
+transform: scale(1.04);
+
+}
+
+.Kepzes{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: ;
+
+}
+.kerdes{
+margin-left: 20%;
+color:gray; 
+background-color:;
+list-style-type: none;
+text-decoration: underline;
+font-family: 'Montserrat', sans-serif;
+font-weight: 1000;
+margin-right: 49%;
+
+}
+.inp2{
+border-bottom: 2px black solid;
+
+}
+
+.margin{
+margin-bottom: ;
+
+}
+iframe{
+
+width: 58%;
+margin-left: 23%;
+
+}
+
+.s{
+color:#292929;
+border-color:#292929 ;
+
+    
+}
+
+#credits{
+/*background-image: linear-gradient(black, #d6d6d6);*/
+background-color: transparent;
+height: 200px;
+width: 100%;
+text-align: center;
+color: black;
+font-family: 'Montserrat', sans-serif;
+font-weight: 1000;
+font-size: 20;
+ 
+}
+
+.Sing{
+font-family: 'Felipa', cursive;;
+font-weight: 1000;
+font-size: 22;
+
+
+}
+
+#button_jel a{
+display: block;
+background:white ;
+width:73px;
+color: black;
+text-decoration: none;
+padding: 5px;
+margin-left: 48%;
+margin-top: 2%;
+transition: 5s all ease;
+text-decoration: none;
+overflow: hidden;
+
+
+}
+
+#button_jel a:hover{
+transition: 5s all ease; 
+background-image: linear-gradient(to right, darkviolet, blue   );
+
+}
+.k{
+display: block;
+background-color: gray;
+margin-left: %;
+margin-right: %;
+text-decoration: none;
+color:black;
+width: 25%;
+margin-left: 40%;
+margin-right: %;
+text-align: center;
+
+}
+
+
+
+
+.a{
+
+}
+
+
+.k:hover{
+color: black;
+background-image: repeating-linear-gradient(to right, lightblue, green );
+    
+}
+#gomb{
+text-align: center;
+
+
+}
+
+.szabadulo{
+width: 80%;
+
+}
+
+.floppy{
+width: 85%;
+
+}
+
+
+    
+
+.szof{
+
+font-family: 'Montserrat', sans-serif;
+
+
+font-size: 18px;
+}
